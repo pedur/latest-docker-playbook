@@ -1,0 +1,7 @@
+---
+# file: deploy-docker.yml
+- hosts: nodes
+  roles:
+    - common
+  remote_user: deploy
+  sudo: True
